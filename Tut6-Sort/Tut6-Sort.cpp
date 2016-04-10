@@ -57,6 +57,7 @@ int main(){
 	disp(array1, 5);
 	cout <<" ________________________________________________________________________" << endl;
 
+	// create a character array to test the methods with 
 	char array2[5] = { 'a', 'm', 'z', 'r', 'q' };
 	cout << "unsorted character array" << endl;
 	disp(array2, 5);
