@@ -32,7 +32,22 @@ void sortArr(Tmpl8 arrIntegers[], int arrSize){
 }
 
 
+void disp(int arr[], int size){
+	for (int i = 0; i < size; i++){
+		cout << arr[i];
+		cout << endl;
+	}
+}
+
+
  // main method
 int main(){
-
+	// create an array to populate the function with
+	int array1[5] = {1,5,4,6,2};
+	cout << "unsorted array" << endl;
+	disp(array1, 5);
+	cout << endl;
+	sortArr(array1, 5);
+	cout << "sorted array" << endl;
+	disp(array1, 5);
 }
